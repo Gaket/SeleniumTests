@@ -27,9 +27,6 @@ public class ExampleUnitTest {
     // The default setting is 0. Once set, the implicit wait is set for the life of the WebDriver object instance.
     driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
-    // Maximize the browser window to fit into screen
-    driver.manage().window().maximize();
-
     // Visit Google
     driver.get("http://www.google.com");
 
